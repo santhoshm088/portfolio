@@ -1,0 +1,804 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="scripts.js"></script>
+
+  
+    <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("DkMQM8q3MDA0ARd-y");
+   })();
+</script>
+
+  </head>
+  <body class="body" style="overflow-x: hidden;">
+    
+
+      
+      <nav class="navbar navbar-expand-xl navbar-dark bg-dark xl-position-fixed" style="width: 100%;overflow: hidden;" id="nav">
+        <div class="container">
+            <div style="width: 100%; text-align: end;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarDark">
+                <ul class="navbar-nav ms-auto mb-2 mb-xl-0 fs-5 ms-auto p-2" style="text-align: center;">
+                    <li class="nav-item me-3">
+                        <a class="nav-link active glow-on-hover my-2" aria-current="page" href="#nav">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                      <a class="nav-link glow-on-hover my-2" href="#about">About</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link glow-on-hover my-2" href="#skills">Skills</a>
+                </li>
+               
+                    <li class="nav-item me-3">
+                        <a class="nav-link glow-on-hover my-2" href="#portfolio" >Projects</a>
+                    </li>
+                   
+                    <li class="nav-item me-3">
+                        <a class="nav-link glow-on-hover my-2" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <div class="w-100 " style="background-color: #080808;">
+    <div class="row h-lg-100 w-100" style="" id="home">
+        <div class="col-sm-12 col-lg-8" style="text-align: center; padding-top: 7%;" >
+            <div class="social-icons" style="word-spacing: 40px;">
+                <a href="https://www.linkedin.com/in/santhosh-m-336a35247/"><i class="fab fa-linkedin" style="font-size: 30px; color: aliceblue;"></i></a>
+                <a href="https://github.com/santhoshm088"><i class="fab fa-github" style="font-size: 30px; color: aliceblue;" ></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100036556907051"><i class="fab fa-facebook" style="font-size: 30px; color: aliceblue;"></i></a>
+                <!-- <a href=""><i class="fab fa-instagram" style="font-size: 30px; color: aliceblue;"></i></a> -->
+            </div>
+            <h1 class="text-light py-3"> I am <span id="name" style="font-size: 50px;color: white;">SANTHOSH</span></h1>
+            <!-- <h5 class="text-light">Web Developer</h5>
+            <h5 class="text-light">App Developer</h5> -->
+
+            <h1>
+               
+                  <span class="wrap typewrite" data-period="2000" data-type='[ "App Developer", "Web Developer"]' style="color: #E78895;"></span>
+                
+              </h1>
+              
+              
+            <h1 class="quote py-2">
+                <span>There</span>
+                <span>are</span>
+                <span>no</span>
+                <span>limits</span>
+                <span>to</span>
+                <span>what</span>
+                <span>you</span>
+                <span>can</span>
+                <span>accomplish,</span>
+                <span>except</span>
+                <span>the</span>
+                <span>limits</span>
+                <span>you</span>
+                <span>place</span>
+                <span>on</span>
+                <span>your</span>
+                <span>own</span>
+                <span>thinking.</span>
+              </h1>
+
+            
+
+            <div class="my-4" style="word-spacing: 20px;" id="btn">
+              <a style="text-decoration: none;" href="#contact"> <button class="p-2">Hire me</button></a>
+                  <a style="text-decoration: none;" href="../resume/SANTHOSH RESUME.pdf" download> <button class="p-2"> Download Resume</button> </a>
+            </div>
+            
+        </div>
+          <div class="col-sm-12 col-lg-4  text-center py-5" style="justify-content: center;align-items: center;background-color: #080808;">
+         <img src="../img/portfollio.jpg" class="img" style="border-radius: 10%;height: 400px;">
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+      <section class="header h-75" style="overflow: hidden;" id="about">
+        <div class="text-center">
+          <h1 style="color: #ee9208;">My <span style="color: #d50e0ea0;">Profile</span></h1>
+        </div>
+        <div class="container h-100" style="text-align: center;vertical-align: middle;align-items: center;">
+           
+    
+            <div class="row my-5 h-75 text-center px-2" style="text-align: center;">
+                <div class="col-md-3">
+                    <!-- Tabs nav -->
+                    <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link mb-3 p-3 shadow active glow-on-hover1 " id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" class="text-white">
+                            <i class="fa fa-user-circle me-2"></i>
+                            <span class="font-weight-bold small text-uppercase ">About me</span></button>
+    
+                        <button class="nav-link mb-3 p-3 shadow glow-on-hover1" id="v-pills-profile-tab " data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false" class="text-white">
+                           
+                            <i class="fa fa-star me-2"></i>
+                            <span class="font-weight-bold small text-uppercase " >Highlights</span></button>
+    
+                        <button class="nav-link mb-3 p-3 shadow  glow-on-hover1" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" class="text-white">
+                          <i class="fa fa-calendar-minus-o me-2"></i>
+                            <span class="font-weight-bold small text-uppercase">Education</span></button>
+    
+                        <button class="nav-link mb-3 p-3 shadow  glow-on-hover1" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" class="text-white">
+                            <i class="fa fa-check me-2"></i>
+                            <span class="font-weight-bold small text-uppercase">Projects</span></button>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-9 about" style="overflow: scroll;height:60vh ;">
+                    <!-- Tabs content -->
+                    <div class="tab-content" id="v-pills-tabContent" style="background-color: #FFB996;">
+                        <div class="tab-pane fade shadow rounded show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" style="">
+                            <h4 class="font-italic mb-4" style="color: red;">About me</h4>
+                            <p class="font-italic  mb-2" style="font-size: 17px;">Hello! My name is Santhosh, and I am a passionate and dedicated software developer with a diverse skill set. I have extensive experience with programming languages such as C, Java, Python, HTML, CSS, JavaScript, Flask, MySQL, Flutter, and Dart. I have successfully completed projects in full-stack development, front-end development, and app development. With a strong foundation in coding, I possess excellent problem-solving skills and have a knack for leadership. I recently completed courses on Flutter and Dart on Udemy, showcasing my commitment to continuous learning and improvement. I am highly enthusiastic, adaptable, and always strive to deliver top-notch results. With a diligent work ethic and a drive for excellence, I am confident in my ability to tackle any challenge and contribute positively to any team or project.</p>
+                        </div>
+                        
+                        <div class="tab-pane fade shadow rounded p-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <h4 class="font-italic mb-4" style="color: red;">Highlights</h4>
+                            <div class='highlights justify-content-center' data-aos='zoom-out-right'>
+    
+                              
+                              <div class="row h-25">
+                            <div class="col-lg-6 col-sm-12 text-start">
+                                <div class="col-12">
+                                <p style="font-size: 17px;">Full Stack Web Developer</p>
+                                <p style="font-size: 17px;">React</p>
+                              </div>
+                              <div class="col-12">
+                                <p style="font-size: 17px;">HTML, CSS, JAVASCRIPT</p>
+                                <p style="font-size: 17px;">Flask</p>
+                                
+                                
+                              </div >
+                              <div class="col-12">
+                                <p style="font-size: 17px;">Interactive Front end as per design</p>
+                                <p style="font-size: 17px;">Flutter and Dart</p>
+                              </div>
+                              </div>
+                              <div class="col-lg-6 col-sm-12" style="text-align: center;vertical-align: middle;">
+                                <div class="my-5 p-3 " style="border: 2px solid black;line-height: 30px;">
+                                Passionate software developer with expertise in C, Java, Python, and full-stack development. Committed to excellence, continuous learning, and delivering impactful solutions.
+                              </div>
+                              </div>
+                            
+                              
+                            </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tab-pane fade shadow rounded  p-5" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <h4 class="font-italic mb-4"  style="color: red;">Education</h4>
+                            <ul style="list-style-type: none;text-align: start;">
+                              <li>Kongu Engineering College, Perundurai - 2021 - 2025<br /><h5>BE - Computer Science and Engineering - 8.50cgpa</h5></li>
+                              <li>Komarasamy Gounder Matric Hr Sec School, Vettayampalayam - 2020 - 2021<h5>Higher Secondary Certificate - 93.4 %</h5></li>
+                              <li>Komarasamy Gounder Matric Hr Sec School, Vettayampalayam  - 2018 - 2019<h5>Secondary School Leaving Certificate - 94.63 %  </h5></li>
+                       </ul>
+                            
+                        </div>
+                        
+                        <div class="tab-pane fade shadow rounded p-5 h-0" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" style="overflow: hidden;" >
+                         
+                            <div class="d-block ">
+                              <div style="border: 3px solid #DDE6ED;box-shadow: 0 0 5px 5px rgba(11, 39, 224, 0.753);" class="p-3 my-4"> 
+                                <h3 style="color: #140085;font-weight: 700;text-transform: uppercase;">Tik Tak Tae</h3>
+                                <p>My React JS Tic Tac Toe website enables two players to compete on a single system. With real-time updates and intuitive design, players engage in the classic game, aiming to create a winning sequence.</p>
+                              </div>
+                              <div style="border: 3px solid #DDE6ED;box-shadow: 0 0 5px 5px rgba(11, 39, 224, 0.753);" class="p-3 my-4">
+                                <h3 style="color: #140085;font-weight: 700;text-transform: uppercase;">Resume Builder</h3>
+                                <p>A dynamic resume builder website, utilizing HTML, CSS, and JavaScript, automatically generates tailored templates based on user-provided details for professional resumes..</p>
+                              </div >
+                              <div style="border: 3px solid #DDE6ED;box-shadow: 0 0 5px 5px rgba(11, 39, 224, 0.753);" class="p-3 my-4">
+                                <h3 style="color: #140085;font-weight: 700;text-transform: uppercase;">Cultural Heritage Of India</h3>
+                                <p>Tour website celebrates India's cultural heritage, featuring traditional foods, festivals, temples, and cultural events. Additionally, it offers insights into diverse state weddings, enriching users' cultural knowledge</p>
+                              </div>
+                              <div style="border: 3px solid #DDE6ED;box-shadow: 0 0 5px 5px rgba(11, 39, 224, 0.753);" class="p-3 my-4">
+                                <h3 style="color: #140085;font-weight: 700;">STUDENT COMPLAINT PORTAL</h3>
+                                <p>Our ReactJS-based student complaint portal enables students to submit grievances, which are categorized and forwarded to relevant authorities. It includes a tracking feature allowing students to monitor their complaints' progress. </p>
+                              </div>
+                              <div style="border: 3px solid #DDE6ED;box-shadow: 0 0 5px 5px rgba(11, 39, 224, 0.753);" class="p-3 my-4">
+                                <h3 style="color: #140085;font-weight: 700;">NUMBER GUESS</h3>
+                                <p >Our game website offers a guessing game where players attempt to discover a number between 1 to 100 within 10 chances. Feedback informs if the guess is higher or lower. The game stores previous guesses and allows restarts.</p>
+                              </div >
+                              <div style="border: 3px solid #DDE6ED;box-shadow: 0 0 5px 5px rgba(11, 39, 224, 0.753);" class="p-3 my-4">
+                                <h3 style="color: #140085;font-weight: 700;">SMART AGRICULTURE</h3>
+                                <p>Our smart agriculture website provides information on seasonal crops, climate suitability, and soil-crop-fertilizer compatibility. Leveraging machine learning, it suggests crops based on soil type, nitrogen, phosphorus, temperature, and humidity, optimizing agricultural practices.</p>
+                              </div>
+                              <div style="border: 3px solid #DDE6ED;box-shadow: 0 0 5px 5px rgba(11, 39, 224, 0.753);" class="p-3 my-4">
+                                <h3 style="color: #140085;font-weight: 700;text-transform: uppercase;">Dice</h3>
+                                <p>Developed a dice application using Flutter and Dart. It allows users to simulate rolling a dice with a simple tap, providing a random result each time, enhancing interactive experiences.</p>
+                              </div>
+                              <div style="border: 3px solid #DDE6ED;box-shadow: 0 0 5px 5px rgba(11, 39, 224, 0.753);" class="p-3 my-4">
+                                <h3 style="color: #140085;font-weight: 700;text-transform: uppercase;">Online Quiz</h3>
+                                <p>Crafted a dynamic quiz game with Flutter and Dart, offering an engaging user experience. The app includes a variety of questions, enhancing portfolio diversity and showcasing proficiency in mobile app development.</p>
+                              </div>
+
+                              <div style="border: 3px solid #DDE6ED;box-shadow: 0 0 5px 5px rgba(11, 39, 224, 0.753);" class="p-3 my-4">
+                                <h3 style="color: #140085;font-weight: 700;text-transform: uppercase;">Expense Tracker</h3>
+                                <p>Developed an efficient expense tracker with Flutter and Dart. Users input expenses with dates, instantly visualizing them on-screen. Implemented a bar chart feature for quick analysis, enhancing financial management capabilities.</p>
+                              </div>
+
+
+    
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <div style="background-color: #080808;height: 100%;position: relative;" id="skills">
+      <div class="text-center ">
+        <h1 style="color: #CFE8EF;">My <span style="color: #d50e0ea0;">Skills</span></h1>
+      </div>
+      <div class="text-center w-100 h-100 " style="display: flex;justify-content: center;">
+      <div class="row w-75 my-5 h-75  sk1" style="border: 3px solid orange;box-shadow: 0 0 5px 5px red;">
+        <div class="col-lg-6 col-sm-12 d-block px-lg-5 ">
+          <div class="w-100 py-3">
+            <div class="w-100" style="display: inline-flex;justify-content: space-between;">
+               <div><h4  style="color:#C4CBCA;">C</h4></div>
+              <div> <h4 style="color:#C4CBCA;" class="px-3">50</h4></div>
+            </div>
+              <div class="w-100" style="border: 3px solid #CFE8EF; border-radius: 10px;height: 15px;">
+                     <div class="h-100 bg-primary" style="border-radius: 10px;width: 50%;">
+  
+                     </div>
+              </div>
+  
+          </div>
+            
+          <div class="w-100 py-3">
+            <div class="w-100" style="display: inline-flex;justify-content: space-between;">
+               <div><h4 style="color:#C4CBCA;" >JAVA</h4></div>
+              <div> <h4 style="color:#C4CBCA;" class="px-3">60</h4></div>
+            </div>
+              <div class="w-100"style="border: 3px solid #CFE8EF; border-radius: 10px;height: 15px;">
+                     <div class="bg-primary h-100" style="border-radius: 10px;width: 60%;">
+  
+                     </div>
+              </div>
+  
+          </div>
+  
+          <div class="w-100 py-3">
+            <div class="w-100" style="display: inline-flex;justify-content: space-between;">
+               <div><h4 style="color:#C4CBCA;" >PYTHON</h4></div>
+              <div> <h4 style="color:#C4CBCA;" class="px-3">55</h4></div>
+            </div>
+              <div class="w-100" style="border: 3px solid #CFE8EF; border-radius: 10px;height: 15px;">
+                     <div class="bg-primary h-100" style="border-radius: 10px;width: 55%;">
+  
+                     </div>
+              </div>
+  
+          </div>
+  
+          <div class="w-100 py-3">
+            <div class="w-100" style="display: inline-flex;justify-content: space-between;">
+               <div><h4 style="color:#C4CBCA;">HTML</h4></div>
+              <div style=""> <h4 style="color:#C4CBCA;" class="px-3">80</h4></div>
+            </div>
+              <div class="w-100" style="border: 3px solid #CFE8EF; border-radius: 10px;height: 15px;">
+                     <div class="bg-primary h-100" style="border-radius: 10px;width: 80%;">
+  
+                     </div>
+              </div>
+  
+          </div>
+  
+          <div class="w-100 py-3">
+            <div class="w-100" style="display: inline-flex;justify-content: space-between;">
+               <div><h4 style="color:#C4CBCA;" >CSS</h4></div>
+              <div style=""> <h4 style="color:#C4CBCA;" class="px-3">70</h4></div>
+            </div>
+              <div class="w-100" style="border: 3px solid #CFE8EF; border-radius: 10px;height: 15px;">
+                     <div class="bg-primary h-100" style="border-radius: 10px;width: 70%;">
+  
+                     </div>
+              </div>
+  
+          </div>
+  
+        </div>
+        <div class="col-lg-6 col-sm-12 d-block px-lg-5">
+          <div class="w-100 py-3">
+            <div class="w-100" style="display: inline-flex;justify-content: space-between;">
+               <div><h4 style="color:#C4CBCA;" >JAVASCRIPT</h4></div>
+              <div style=""> <h4 style="color:#C4CBCA;" class="px-3">65</h4></div>
+            </div>
+              <div class="w-100" style="border: 3px solid #CFE8EF; border-radius: 10px;height: 15px;">
+                     <div class="bg-primary h-100" style="border-radius: 10px;width: 65%;">
+  
+                     </div>
+              </div>
+  
+          </div>
+            
+          <div class="w-100 py-3">
+            <div class="w-100" style="display: inline-flex;justify-content: space-between;">
+               <div><h4 style="color:#C4CBCA;" >BOOTSTRAP</h4></div>
+              <div style=""> <h4 style="color:#C4CBCA;" class="px-3">75</h4></div>
+            </div>
+              <div class="w-100" style="border: 3px solid #CFE8EF; border-radius: 10px;height: 15px;">
+                     <div class="bg-primary h-100" style="border-radius: 10px;width: 75%;">
+  
+                     </div>
+              </div>
+  
+          </div>
+  
+          <div class="w-100 py-3">
+            <div class="w-100" style="display: inline-flex;justify-content: space-between;">
+               <div><h4 style="color:#C4CBCA;" >REACTJS</h4></div>
+              <div style=""> <h4 style="color:#C4CBCA;"  class="px-3">60</h4></div>
+            </div>
+              <div class="w-100" style="border: 3px solid #CFE8EF; border-radius: 10px;height: 15px;">
+                     <div class="bg-primary h-100" style="border-radius: 10px;width: 60%;">
+  
+                     </div>
+              </div>
+  
+          </div>
+  
+        
+  
+          <div class="w-100 py-3">
+            <div class="w-100" style="display: inline-flex;justify-content: space-between;">
+               <div><h4 style="color:#C4CBCA;" >MYSQL</h4></div>
+              <div style=""> <h4 style="color:#C4CBCA;" class="px-3">50</h4></div>
+            </div>
+              <div class="w-100" style="border: 3px solid #CFE8EF; border-radius: 10px;height: 15px;">
+                     <div class="bg-primary h-100" style="border-radius: 10px;width: 50%;">
+  
+                     </div>
+              </div>
+  
+          </div>
+  
+          <div class="w-100 py-3">
+            <div class="w-100" style="display: inline-flex;justify-content: space-between;">
+               <div><h4 style="color:#C4CBCA;" >FLUTTER AND DART</h4></div>
+              <div style=""> <h4 style="color:#C4CBCA;" class="px-3">70</h4></div>
+            </div>
+              <div class="w-100" style="border: 3px solid #CFE8EF; border-radius: 10px;height: 15px;">
+                     <div class="bg-primary h-100" style="border-radius: 10px;width: 70%;">
+  
+                     </div>
+              </div>
+  
+          </div>
+  
+          
+  
+        </div>
+      </div>
+    </div>
+     </div>
+  
+  
+    
+    
+
+
+
+
+      
+
+      <div id="portfolio" class="py-3" style="height: 100vh;margin-bottom: 0;">
+        
+        <h1 style="color: #c1772d;" class="text-center">My <span style="color: #d54a0ebd;">Projects</span></h1>
+           <h1 class="sub-title text-center" id="title">Web Projects</h1>
+           <div class="work-list w-100 row px-5" style=" display: flex;justify-content: center;">
+                    <div class="work col-lg-3 col-sm-12" style="" >
+                        <img src="../img/tik_tak_toe.png" class="w-100" style="height: 300px;">
+                       <div class="layer" style="">
+                        <div class="dark fire">
+                          <h1 class="Blazing" >TIK TAK TOE</h1>
+                    </div>
+                            <p class="" style="color: rgba(253, 33, 4, 0.875);font-weight: 800;font-size: 16px;">My React JS Tic Tac Toe website enables two players to compete on a single system. With real-time updates and intuitive design, players engage in the classic game, aiming to create a winning sequence.</p>
+                            <div class="w-100 text-center" style="display: flex;justify-content: center;">
+                            <div class="wrapper mx-3">
+                              <a href="https://github.com/santhoshm088/tik-tak-toe/tree/main/tik"  class="bg-light"><span>Code</span></a>
+                            </div>
+                            <div class="wrapper mx-3">
+                              <a href="https://tik-tak-toe-game11.netlify.app/"  class="bg-light"><span>Demo</span></a>
+                            </div>
+                          </div>
+                       </div>
+                    </div>
+
+
+                     <div class="work col-lg-3 col-sm-12" style="" >
+                        <img src="../img/resume.png" class="w-100" style="height: 300px;">
+                       <div class="layer" style="">
+                        <div class="dark fire">
+                          <h1 class="Blazing" >RESUME BUILDER</h1>
+                    </div>
+                            <p style="color: rgba(253, 33, 4, 0.875);font-weight: 800;font-size: 16px;">A dynamic resume builder website, utilizing HTML, CSS, and JavaScript, automatically generates tailored templates based on user-provided details for professional resumes.</p>
+                            <div class="w-100 text-center" style="display: flex;justify-content: center;">
+                            <div class="wrapper mx-3">
+                              <a href="https://github.com/santhoshm088/Resume_Builder/tree/main/resume"  class="bg-light"><span>Code</span></a>
+                            </div>
+                            <div class="wrapper mx-3">
+                              <a href="https://resumebuilder-123.netlify.app/"  class="bg-light"><span>Demo</span></a>
+                            </div>
+                          </div>
+                       </div>
+                    </div>
+
+                    <div class="work col-lg-3 col-sm-12">
+                      <img src="../img/temple.png" class="w-100" style="height: 300px;">
+                     <div class="layer">
+                      <div class="dark fire">
+                        <h1 class="Blazing" >CULTURE HERITAGE OF INDIA</h1>
+                  </div>
+                         <p style="color: rgba(253, 33, 4, 0.875);font-weight: 800;font-size: 16px;">Tour website celebrates India's cultural heritage, featuring traditional foods, festivals, temples, and cultural events. Additionally, it offers insights into diverse state weddings, enriching users' cultural knowledge.</p>
+                         <div class="w-100 text-center" style="display: flex;justify-content: center;">
+                          <div class="wrapper mx-3">
+                            <a href="https://github.com/santhoshm088/Culturals-of-South-India/tree/main/sih"  class="bg-light"><span>Code</span></a>
+                          </div>
+                          <div class="wrapper mx-3">
+                            <a href="https://culturals-of-india.netlify.app/"  class="bg-light"><span>Demo</span></a>
+                          </div>
+                        </div>
+                     </div>
+                  </div>
+
+                    <div class="work col-lg-3 col-sm-12" style="" >
+                      <img src="../img/temple.png" class="w-100" style="height: 300px;">
+                     <div class="layer" style="">
+                      <div class="dark fire">
+                        <h1 class="Blazing" >STUDENT COMPLAINT PORTAL</h1>
+                  </div>
+                          <p style="color: rgba(253, 33, 4, 0.875);font-weight: 800;font-size: 16px;">
+                            Our ReactJS-based student complaint portal enables students to submit grievances, which are categorized and forwarded to relevant authorities. It includes a tracking feature allowing students to monitor their complaints' progress.</p>
+                          <div class="w-100 text-center" style="display: flex;justify-content: center;">
+                          <div class="wrapper mx-3">
+                            <a href="#"  class="bg-light"><span>Code</span></a>
+                          </div>
+                          <div class="wrapper mx-3">
+                            <a href="#"  class="bg-light"><span>Demo</span></a>
+                          </div>
+                        </div>
+                     </div>
+                  </div>
+
+                   
+
+                    <div class="work col-lg-3 col-sm-12">
+                      <img src="../img/guess.png" class="w-100" style="height: 300px;">
+                     <div class="layer">
+                      <div class="dark fire">
+                        <h1 class="Blazing" >NUMBER GUESS</h1>
+                  </div>
+                         <p style="color: rgba(253, 33, 4, 0.875);font-weight: 800;font-size: 16px;" class="text-center ">
+                          Our game website offers a guessing game where players attempt to discover a number between 1 to 100 within 10 chances. Feedback informs if the guess is higher or lower. The game stores previous guesses and allows restarts.</p>
+                         <div class="w-100 text-center" style="display: flex;justify-content: center;">
+                          <div class="wrapper mx-3">
+                            <a href="https://github.com/santhoshm088/Number_guess"  class="bg-light"><span>Code</span></a>
+                          </div>
+                          <div class="wrapper mx-3">
+                            <a href="https://number-guess-game11.netlify.app/"  class="bg-light"><span>Demo</span></a>
+                          </div>
+                        </div>
+                     </div>
+                  </div>
+
+                 
+
+                <div class="work col-lg-3 col-sm-12">
+                  <img src="../img/agriculture.png" class="w-100" style="height: 300px;">
+                 <div class="layer">
+                  <div class="dark fire text-center">
+                    <h1 class="Blazing text-center" >SMART AGRICULTURE</h1>
+              </div>
+                     <p style="color: rgba(253, 33, 4, 0.875);font-weight: 800;font-size: 16px;">Our smart agriculture website provides information on seasonal crops, climate suitability, and soil-crop-fertilizer compatibility. Leveraging machine learning, it suggests crops based on soil type, nitrogen, phosphorus, temperature, and humidity, optimizing agricultural practices.</p>
+                     <div class="w-100 text-center" style="display: flex;justify-content: center;">
+                      <div class="wrapper mx-3">
+                        <a href="https://github.com/santhoshm088/Smart-Agriculture/tree/main/flask"  class="bg-light"><span>Code</span></a>
+                      </div>
+                      <div class="wrapper mx-3">
+                        <a href="#"  class="bg-light"><span>Demo</span></a>
+                      </div>
+                    </div>
+                 </div>
+              </div>     
+
+                    
+           </div>
+
+           
+
+
+
+
+           <h1 class="sub-title text-center my-4" style=""  id="title">App Projects</h1>
+           <div class="work-list w-100 row px-5" style="height: 300px; display: flex;justify-content: center;">
+                    <div class="work col-lg-3 col-sm-12" style="" >
+                        <img src="../img/dice.png" class="w-100" style="height: 300px;">
+                       <div class="layer" style="">
+                        <div class="dark fire">
+                          <h1 class="Blazing" >Dice</h1>
+                    </div>
+                            <p style="color: rgba(253, 33, 4, 0.875);font-weight: 800;font-size: 16px;" > Developed a dice application using Flutter and Dart. It allows users to simulate rolling a dice with a simple tap, providing a random result each time, enhancing interactive experiences.</p>
+                            <div class="w-100 text-center" style="display: flex;justify-content: center;">
+                            <div class="wrapper mx-3">
+                              <a href="https://github.com/santhoshm088/dice/tree/main/first_app"  class="bg-light"><span>Code</span></a>
+                            </div>
+                            <div class="wrapper mx-3">
+                              <a href="#"  class="bg-light"><span>Demo</span></a>
+                            </div>
+                          </div>
+                       </div>
+                    </div>
+
+
+                     <div class="work col-lg-3 col-sm-12" style="" >
+                        <img src="../img/quiz.jpeg" class="w-100" style="height: 300px;">
+                       <div class="layer" style="">
+                        <div class="dark fire">
+                          <h1 class="Blazing" >Online Quiz</h1>
+                    </div>
+                            <p style="color: rgba(253, 33, 4, 0.875);font-weight: 800;font-size: 16px;">
+                              Crafted a dynamic quiz game with Flutter and Dart, offering an engaging user experience. The app includes a variety of questions, enhancing portfolio diversity and showcasing proficiency in mobile app development.</p>
+                            <div class="w-100 text-center" style="display: flex;justify-content: center;">
+                            <div class="wrapper mx-3">
+                              <a href="#"  class="bg-light" ><span>Code</span></a>
+                            </div>
+                            <div class="wrapper mx-3">
+                              <a href="#"  class="bg-light" ><span>Demo</span></a>
+                            </div>
+                          </div>
+                       </div>
+                    </div>
+
+                    <div class="work col-lg-3 col-sm-12" style="" >
+                      <img src="../img/expense.png" class="w-100" style="height: 300px;">
+                     <div class="layer" style="">
+                      <div class="dark fire">
+                        <h1 class="Blazing" >Expense Tracker</h1>
+                  </div>
+                          <p style="color: rgba(253, 33, 4, 0.875);font-weight: 800;font-size: 16px;">
+                            Developed an efficient expense tracker with Flutter and Dart. Users input expenses with dates, instantly visualizing them on-screen. Implemented a bar chart feature for quick analysis, enhancing financial management capabilities.</p>
+                          <div class="w-100 text-center" style="display: flex;justify-content: center;">
+                          <div class="wrapper mx-3">
+                            <a href="https://github.com/santhoshm088/Expense-Tracker/tree/main/expenses"  class="bg-light"><span>Code</span></a>
+                          </div>
+                          <div class="wrapper mx-3">
+                            <a href="#"  class="bg-light"><span>Demo</span></a>
+                          </div>
+                        </div>
+                     </div>
+                  </div>
+
+           </div>
+           
+
+
+
+
+
+
+             
+
+
+
+           <!-- <a href="#" class="btn">See more</a> -->
+       
+   </div>
+
+  
+
+
+
+   <div id="contact" style="">
+    <div class="container" style="">
+        <div class="row h-100 my-3 text-center">
+            <div class="contact-left col-lg-4" style="">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"> </i> santhoshdhana88@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +91 9976513631</p>
+                <div class="social-icons" >
+                    <a href="https://www.linkedin.com/in/santhosh-m-336a35247/"><i class="fab fa-linkedin text-dark mx-2"></i></a>
+                    <a href="https://github.com/santhoshm088"><i class="fab fa-github text-dark mx-2"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100036556907051"><i class="fab fa-facebook text-dark mx-2"></i></a>
+                    <!-- <a href=""><i class="fab fa-instagram text-dark mx-2"></i></a> -->
+                </div>
+                <a href="../resume/SANTHOSH RESUME.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right col-lg-8 px-5">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" id="fullName" required>
+                <input type="email" name="Email" placeholder="Your Email" id="email_id" required>
+                <textarea name="Message" rows="6" placeholder="Your Message" id="message"></textarea>
+                <button type="submit" class="btn btn2" onclick="SendMail()">Submit</button>
+
+            </form>
+            <span id="msg"></span>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright m-0">
+        <p class="text-light">&#169; 2024.All rights reserved.<br>Created and Designed by Santhosh<i class="fas fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<!-- 
+   <div class="h-100 w-100" style="height: 100px;">
+    <div>
+        <h1>Hi</h1>
+    </div>
+   </div> -->
+
+
+
+   <!-- <div class='about' id='section2'>
+
+    <div class='container'>
+
+      <div class='row'>
+        <h2 class='text-center'>About <span style="color: #f64c08">me</span></h2>
+        <div class='col-12 col-md-6 col-lg-6 aboutImagePart1 mt-4 d-block' data-aos='flip-right'>
+          <img src={img1} alt='sabari' style=" width: 300px; height: 300px ; objectFit: contain; borderRadius: 0%" />
+          <a href='Sabarish Resume.pdf' download="resume.pdf" class='text-decoration-none'><button class='btn download1 mt-5 mb-3 d-flex align-items-center justify-content-center'>downloadcv</button></a>
+
+        </div>
+        <div class='col-12 col-md-6 col-lg-6 aboutTextPart1' data-aos='fade-left'>
+          <div>
+
+            <p>
+              Full stack web development with background knowledge of MERN stacks, along with knack of building applications with utmost efficiency. Strong professional development with MongoDB.                </p>
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="card p-3 shadow" >
+                <nav>
+                  <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" style="color:black"> <FiShield size={25} color='black' strokeWidth={2.0} />Highlights</button>
+                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" style="color:black"><FiBook size={25} color='black' strokeWidth={2.0} />Education</button>
+                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false" style="color:black"><FiZap size={25} color='black' strokeWidth={2.0} />Prizes</button>
+                  </div>
+                </nav>
+                <div class="tab-content p-3 border bg-light" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class='highlights d-flex align-items-center justify-content-center' data-aos='zoom-out-right'>
+
+                      <ul >
+                        <li>Full Stack Web Developer</li>
+                        <li>Interactive Front end as per design</li>
+                        <li>HTML, CSS, JAVASCRIPT</li>
+                        <li>React</li>
+                        <li>MERN stack Development</li>
+                    
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                  <ul>
+                        <li>Kongu Engineering College, Perundurai - 2021 - 2025<br /><h5>BE - Computer Science and Engineering - 8.64cgpa</h5></li>
+                        <li>Saratha Matric Hr Sec School, Gobi - 2020 - 2021<h5>Higher Secondary Certificate - 90.6 %</h5></li>
+                        <li>Saratha Matric Hr Sec School, Gobi - 2018 - 2019<h5>Secondary School Leaving Certificate - 90.3 %  </h5></li>
+                 </ul>
+                  </div>
+                  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                  <ul>
+                        <li><strong>CODE CRAFT</strong> event in KEC Codeup'23<br /><h5 style=" color: #f64c08">1ST PRIZE💪 <a href="codeup.pdf" target='no_blank' style="fontSize:15px">View Certificate</a></h5></li>
+                        <li><strong>DESIGN JAM</strong> event in KEC Renaissanace'23<h5 style="color: #f64c08" >1ST PRIZE💪 <a href="renaissance.pdf" target='no_blank' style="fontSize:15px">View Certificate</a></h5></li>
+                        <li><strong>ARCHETYPE</strong>(Project Presentation) event in KEC Cognizance'23<h5 style=" color: #f64c08">3RD PRIZE✨ <a href="cognisance.pdf" target='no_blank' style="fontSize:15px">View Certificate</a></h5></li>
+                 </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+
+
+  
+
+
+
+   <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            navLinks.forEach(item => item.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll('.glow-on-hover1');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            navLinks.forEach(item => item.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+});
+
+function checkSkillsAnimation() {
+  const skillsSection = document.getElementById('skills');
+  const skillsTop = skillsSection.getBoundingClientRect().top;
+  const windowHeight = window.innerHeight;
+
+  // Check if the skills section is visible in the viewport
+  if (skillsTop < windowHeight) {
+    const skillElements = document.querySelectorAll('.sk1 div div');
+
+    // Add animation classes to skill elements
+    skillElements.forEach((element, index) => {
+      setTimeout(() => {
+        element.classList.add('animate-in');
+      }, index * 100); // Adjust the delay between animations as needed
+    });
+
+    // Remove the scroll event listener once the animations are triggered
+    window.removeEventListener('scroll', checkSkillsAnimation);
+  }
+}
+
+// Call the function once the page is loaded
+window.addEventListener('load', checkSkillsAnimation);
+
+
+
+
+
+
+
+
+   </script>
+
+  
+  </body>
+</html>
